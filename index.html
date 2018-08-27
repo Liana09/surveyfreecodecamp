@@ -1,0 +1,44 @@
+<html>
+<link rel="stylesheet" href="cssthing.css">
+  <body>
+    <title>Survey Form</title>
+    <div id="title">
+      <h1>This is my first survey</h1>
+    </div>
+    <div id="exterior">
+      <p id="description">
+        Curiozitatiile mele
+      </p>
+        <form id="survey-form" action="/Nimic-concret" method="get" autocomplete="on">
+          <div class="all-labels">
+            <div class="labels">
+              <label id="name-label" for="first-name">*First name</label>
+            </div>
+            <div class="rightTab">
+              <input autofocus type="text" placeholder="First Name" reuquired maxlength="20">
+            </div>
+            <div class="labels">
+              <label id="name-label" for="last-name">*Last name</label>
+            </div>
+            <div class="rightTab">
+              <input autofocus type="text" placeholder="Last Name" reuquired maxlength="20" >
+            </div>
+            <div class="labels">
+              <label id="email-label" for="emaik">*Email</label>
+            </div>
+            <div class="rightTab">
+              <input autofocus type="text" placeholder="Email" reuquired maxlength="20" >
+            </div>
+            <div class="labels">
+              <label id="number-label" for="age">*Age</label>
+            </div>
+            <div class="rightTab">
+              <input autofocus type="number" placeholder="Age" min="10" name="age">
+              <span class="validity"></span>
+            </div>
+          </div>
+        </form>
+    </div>
+    </div>
+  </body>
+</html>
