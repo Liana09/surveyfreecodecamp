@@ -35,7 +35,30 @@
             <div class="rightTab">
               <input class="input" autofocus type="number" placeholder="Age" min="10" name="age">
               <span class="validity"></span>
+            </div>
 
+            <div class="labels">
+              <label id="dropdown-label" for="occupation">Which option best describes your current role?</label>
+            </div>
+            <div class="rightTab">
+              <select id="dropdown" class="dropdown" name="occupation" placeholder="Select an option">
+                <option disabled value>Select an option</option>
+                <option value="Student">Student</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+
+            <div class="labels">
+              <label for="name">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+            </div>
+            <div class="rightTab">
+              <ul style="list-style: none;">
+                <li class="radio"><label><input type="radio" name="radio-buttons" value="definitely" class="buttons"> Definitely</label></li>
+                <li class="radio"><label><input type="radio" name="radio-buttons" value="maybe" class="buttons"> Maybe</label></li>
+                <li class="radio"><label><input type="radio" name="radio-buttons" value="no" class="buttons"> No</label></li>
             </div>
           </div>
         </form>
